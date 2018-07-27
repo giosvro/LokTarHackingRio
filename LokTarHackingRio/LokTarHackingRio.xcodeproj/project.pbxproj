@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186D91A4C3A69EC7F46E303F /* Pods_LokTarHackingRioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320057B2DAD823AC413C978 /* Pods_LokTarHackingRioTests.framework */; };
+		65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE3210BE52300B32E89 /* AppDelegate.swift */; };
+		65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE5210BE52300B32E89 /* ViewController.swift */; };
+		65FABAE9210BE52300B32E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FABAE7210BE52300B32E89 /* Main.storyboard */; };
+		65FABAEB210BE52300B32E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FABAEA210BE52300B32E89 /* Assets.xcassets */; };
+		65FABAEE210BE52300B32E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FABAEC210BE52300B32E89 /* LaunchScreen.storyboard */; };
+		65FABAF9210BE52400B32E89 /* LokTarHackingRioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAF8210BE52400B32E89 /* LokTarHackingRioTests.swift */; };
+		65FABB04210BE52400B32E89 /* LokTarHackingRioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABB03210BE52400B32E89 /* LokTarHackingRioUITests.swift */; };
+		8EABEA67A67785290734B58C /* Pods_LokTarHackingRioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D2AB8B5D53C423FFAF7599 /* Pods_LokTarHackingRioUITests.framework */; };
+		BC74B3B46A612866D9B881C7 /* Pods_LokTarHackingRio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB30E7FF930752EBB85E75A2 /* Pods_LokTarHackingRio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FABAF5210BE52400B32E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FABAD8210BE52300B32E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FABADF210BE52300B32E89;
+			remoteInfo = LokTarHackingRio;
+		};
+		65FABB00210BE52400B32E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FABAD8210BE52300B32E89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FABADF210BE52300B32E89;
+			remoteInfo = LokTarHackingRio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0320057B2DAD823AC413C978 /* Pods_LokTarHackingRioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokTarHackingRioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FA4DFFDCB6183032F05A6D /* Pods-LokTarHackingRio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRio/Pods-LokTarHackingRio.debug.xcconfig"; sourceTree = "<group>"; };
+		17C09CAE1A87F2885A955B76 /* Pods-LokTarHackingRioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioTests/Pods-LokTarHackingRioTests.release.xcconfig"; sourceTree = "<group>"; };
+		37D2AB8B5D53C423FFAF7599 /* Pods_LokTarHackingRioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokTarHackingRioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FABAE0210BE52300B32E89 /* LokTarHackingRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokTarHackingRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FABAE3210BE52300B32E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65FABAE5210BE52300B32E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65FABAE8210BE52300B32E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65FABAEA210BE52300B32E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65FABAED210BE52300B32E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65FABAEF210BE52400B32E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FABAF4210BE52400B32E89 /* LokTarHackingRioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokTarHackingRioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FABAF8210BE52400B32E89 /* LokTarHackingRioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokTarHackingRioTests.swift; sourceTree = "<group>"; };
+		65FABAFA210BE52400B32E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FABAFF210BE52400B32E89 /* LokTarHackingRioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokTarHackingRioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FABB03210BE52400B32E89 /* LokTarHackingRioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokTarHackingRioUITests.swift; sourceTree = "<group>"; };
+		65FABB05210BE52400B32E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B71791C98BCAB684DDAAFBF /* Pods-LokTarHackingRioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioUITests/Pods-LokTarHackingRioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9277F55A2028CC3F296DAF /* Pods-LokTarHackingRio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRio.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRio/Pods-LokTarHackingRio.release.xcconfig"; sourceTree = "<group>"; };
+		DB30E7FF930752EBB85E75A2 /* Pods_LokTarHackingRio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokTarHackingRio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0738C28B19522983D99B0C1 /* Pods-LokTarHackingRioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioTests/Pods-LokTarHackingRioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F141D8CB70C439DBC60DCEC6 /* Pods-LokTarHackingRioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioUITests/Pods-LokTarHackingRioUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FABADD210BE52300B32E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC74B3B46A612866D9B881C7 /* Pods_LokTarHackingRio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FABAF1210BE52400B32E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186D91A4C3A69EC7F46E303F /* Pods_LokTarHackingRioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FABAFC210BE52400B32E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EABEA67A67785290734B58C /* Pods_LokTarHackingRioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041B5B4A96A316F61C2CB319 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11FA4DFFDCB6183032F05A6D /* Pods-LokTarHackingRio.debug.xcconfig */,
+				BE9277F55A2028CC3F296DAF /* Pods-LokTarHackingRio.release.xcconfig */,
+				E0738C28B19522983D99B0C1 /* Pods-LokTarHackingRioTests.debug.xcconfig */,
+				17C09CAE1A87F2885A955B76 /* Pods-LokTarHackingRioTests.release.xcconfig */,
+				9B71791C98BCAB684DDAAFBF /* Pods-LokTarHackingRioUITests.debug.xcconfig */,
+				F141D8CB70C439DBC60DCEC6 /* Pods-LokTarHackingRioUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65FABAD7210BE52300B32E89 = {
+			isa = PBXGroup;
+			children = (
+				65FABAE2210BE52300B32E89 /* LokTarHackingRio */,
+				65FABAF7210BE52400B32E89 /* LokTarHackingRioTests */,
+				65FABB02210BE52400B32E89 /* LokTarHackingRioUITests */,
+				65FABAE1210BE52300B32E89 /* Products */,
+				041B5B4A96A316F61C2CB319 /* Pods */,
+				F4ED2346CD0516223DAE1B30 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65FABAE1210BE52300B32E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FABAE0210BE52300B32E89 /* LokTarHackingRio.app */,
+				65FABAF4210BE52400B32E89 /* LokTarHackingRioTests.xctest */,
+				65FABAFF210BE52400B32E89 /* LokTarHackingRioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FABAE2210BE52300B32E89 /* LokTarHackingRio */ = {
+			isa = PBXGroup;
+			children = (
+				65FABAE3210BE52300B32E89 /* AppDelegate.swift */,
+				65FABAE5210BE52300B32E89 /* ViewController.swift */,
+				65FABAE7210BE52300B32E89 /* Main.storyboard */,
+				65FABAEA210BE52300B32E89 /* Assets.xcassets */,
+				65FABAEC210BE52300B32E89 /* LaunchScreen.storyboard */,
+				65FABAEF210BE52400B32E89 /* Info.plist */,
+			);
+			path = LokTarHackingRio;
+			sourceTree = "<group>";
+		};
+		65FABAF7210BE52400B32E89 /* LokTarHackingRioTests */ = {
+			isa = PBXGroup;
+			children = (
+				65FABAF8210BE52400B32E89 /* LokTarHackingRioTests.swift */,
+				65FABAFA210BE52400B32E89 /* Info.plist */,
+			);
+			path = LokTarHackingRioTests;
+			sourceTree = "<group>";
+		};
+		65FABB02210BE52400B32E89 /* LokTarHackingRioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65FABB03210BE52400B32E89 /* LokTarHackingRioUITests.swift */,
+				65FABB05210BE52400B32E89 /* Info.plist */,
+			);
+			path = LokTarHackingRioUITests;
+			sourceTree = "<group>";
+		};
+		F4ED2346CD0516223DAE1B30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB30E7FF930752EBB85E75A2 /* Pods_LokTarHackingRio.framework */,
+				0320057B2DAD823AC413C978 /* Pods_LokTarHackingRioTests.framework */,
+				37D2AB8B5D53C423FFAF7599 /* Pods_LokTarHackingRioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FABADF210BE52300B32E89 /* LokTarHackingRio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FABB08210BE52400B32E89 /* Build configuration list for PBXNativeTarget "LokTarHackingRio" */;
+			buildPhases = (
+				38BACB6C33F4F6BFB2462304 /* [CP] Check Pods Manifest.lock */,
+				65FABADC210BE52300B32E89 /* Sources */,
+				65FABADD210BE52300B32E89 /* Frameworks */,
+				65FABADE210BE52300B32E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LokTarHackingRio;
+			productName = LokTarHackingRio;
+			productReference = 65FABAE0210BE52300B32E89 /* LokTarHackingRio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FABAF3210BE52400B32E89 /* LokTarHackingRioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FABB0B210BE52400B32E89 /* Build configuration list for PBXNativeTarget "LokTarHackingRioTests" */;
+			buildPhases = (
+				8FE882DA6EC4F0500894EAF8 /* [CP] Check Pods Manifest.lock */,
+				65FABAF0210BE52400B32E89 /* Sources */,
+				65FABAF1210BE52400B32E89 /* Frameworks */,
+				65FABAF2210BE52400B32E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FABAF6210BE52400B32E89 /* PBXTargetDependency */,
+			);
+			name = LokTarHackingRioTests;
+			productName = LokTarHackingRioTests;
+			productReference = 65FABAF4210BE52400B32E89 /* LokTarHackingRioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65FABAFE210BE52400B32E89 /* LokTarHackingRioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FABB0E210BE52400B32E89 /* Build configuration list for PBXNativeTarget "LokTarHackingRioUITests" */;
+			buildPhases = (
+				052DAC8838181CE99112E79D /* [CP] Check Pods Manifest.lock */,
+				65FABAFB210BE52400B32E89 /* Sources */,
+				65FABAFC210BE52400B32E89 /* Frameworks */,
+				65FABAFD210BE52400B32E89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FABB01210BE52400B32E89 /* PBXTargetDependency */,
+			);
+			name = LokTarHackingRioUITests;
+			productName = LokTarHackingRioUITests;
+			productReference = 65FABAFF210BE52400B32E89 /* LokTarHackingRioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FABAD8210BE52300B32E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Giovanni Severo Barros";
+				TargetAttributes = {
+					65FABADF210BE52300B32E89 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					65FABAF3210BE52400B32E89 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 65FABADF210BE52300B32E89;
+					};
+					65FABAFE210BE52400B32E89 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 65FABADF210BE52300B32E89;
+					};
+				};
+			};
+			buildConfigurationList = 65FABADB210BE52300B32E89 /* Build configuration list for PBXProject "LokTarHackingRio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65FABAD7210BE52300B32E89;
+			productRefGroup = 65FABAE1210BE52300B32E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FABADF210BE52300B32E89 /* LokTarHackingRio */,
+				65FABAF3210BE52400B32E89 /* LokTarHackingRioTests */,
+				65FABAFE210BE52400B32E89 /* LokTarHackingRioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FABADE210BE52300B32E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FABAEE210BE52300B32E89 /* LaunchScreen.storyboard in Resources */,
+				65FABAEB210BE52300B32E89 /* Assets.xcassets in Resources */,
+				65FABAE9210BE52300B32E89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FABAF2210BE52400B32E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FABAFD210BE52400B32E89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		052DAC8838181CE99112E79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LokTarHackingRioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38BACB6C33F4F6BFB2462304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LokTarHackingRio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE882DA6EC4F0500894EAF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LokTarHackingRioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FABADC210BE52300B32E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */,
+				65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FABAF0210BE52400B32E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FABAF9210BE52400B32E89 /* LokTarHackingRioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FABAFB210BE52400B32E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FABB04210BE52400B32E89 /* LokTarHackingRioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FABAF6210BE52400B32E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FABADF210BE52300B32E89 /* LokTarHackingRio */;
+			targetProxy = 65FABAF5210BE52400B32E89 /* PBXContainerItemProxy */;
+		};
+		65FABB01210BE52400B32E89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FABADF210BE52300B32E89 /* LokTarHackingRio */;
+			targetProxy = 65FABB00210BE52400B32E89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FABAE7210BE52300B32E89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FABAE8210BE52300B32E89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65FABAEC210BE52300B32E89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FABAED210BE52300B32E89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FABB06210BE52400B32E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65FABB07210BE52400B32E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FABB09210BE52400B32E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11FA4DFFDCB6183032F05A6D /* Pods-LokTarHackingRio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95YRNG7UFK;
+				INFOPLIST_FILE = LokTarHackingRio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65FABB0A210BE52400B32E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9277F55A2028CC3F296DAF /* Pods-LokTarHackingRio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95YRNG7UFK;
+				INFOPLIST_FILE = LokTarHackingRio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65FABB0C210BE52400B32E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0738C28B19522983D99B0C1 /* Pods-LokTarHackingRioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95YRNG7UFK;
+				INFOPLIST_FILE = LokTarHackingRioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LokTarHackingRio.app/LokTarHackingRio";
+			};
+			name = Debug;
+		};
+		65FABB0D210BE52400B32E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17C09CAE1A87F2885A955B76 /* Pods-LokTarHackingRioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95YRNG7UFK;
+				INFOPLIST_FILE = LokTarHackingRioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LokTarHackingRio.app/LokTarHackingRio";
+			};
+			name = Release;
+		};
+		65FABB0F210BE52400B32E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B71791C98BCAB684DDAAFBF /* Pods-LokTarHackingRioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95YRNG7UFK;
+				INFOPLIST_FILE = LokTarHackingRioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LokTarHackingRio;
+			};
+			name = Debug;
+		};
+		65FABB10210BE52400B32E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F141D8CB70C439DBC60DCEC6 /* Pods-LokTarHackingRioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95YRNG7UFK;
+				INFOPLIST_FILE = LokTarHackingRioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LokTarHackingRio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FABADB210BE52300B32E89 /* Build configuration list for PBXProject "LokTarHackingRio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FABB06210BE52400B32E89 /* Debug */,
+				65FABB07210BE52400B32E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FABB08210BE52400B32E89 /* Build configuration list for PBXNativeTarget "LokTarHackingRio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FABB09210BE52400B32E89 /* Debug */,
+				65FABB0A210BE52400B32E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FABB0B210BE52400B32E89 /* Build configuration list for PBXNativeTarget "LokTarHackingRioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FABB0C210BE52400B32E89 /* Debug */,
+				65FABB0D210BE52400B32E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FABB0E210BE52400B32E89 /* Build configuration list for PBXNativeTarget "LokTarHackingRioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FABB0F210BE52400B32E89 /* Debug */,
+				65FABB10210BE52400B32E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FABAD8210BE52300B32E89 /* Project object */;
+}

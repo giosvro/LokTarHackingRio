@@ -1,0 +1,6 @@
+framework module Pods_LokTarHackingRioUITests {
+  umbrella header "Pods-LokTarHackingRioUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
