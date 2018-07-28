@@ -11,6 +11,7 @@
 		65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */; };
 		65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */; };
 		65B24FF8210C7DE000EC1568 /* PatientView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B24FF7210C7DE000EC1568 /* PatientView.storyboard */; };
+		65B24FFA210CBFA100EC1568 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF9210CBFA100EC1568 /* test.swift */; };
 		65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE3210BE52300B32E89 /* AppDelegate.swift */; };
 		65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE5210BE52300B32E89 /* ViewController.swift */; };
 		65FABAE9210BE52300B32E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FABAE7210BE52300B32E89 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewController.swift; sourceTree = "<group>"; };
 		65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewCell.swift; sourceTree = "<group>"; };
 		65B24FF7210C7DE000EC1568 /* PatientView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatientView.storyboard; sourceTree = "<group>"; };
+		65B24FF9210CBFA100EC1568 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		65FABAE0210BE52300B32E89 /* LokTarHackingRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokTarHackingRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FABAE3210BE52300B32E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FABAE5210BE52300B32E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		65B24FEF210C6E6400EC1568 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				65B24FF9210CBFA100EC1568 /* test.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */,
 				65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */,
 				65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */,
+				65B24FFA210CBFA100EC1568 /* test.swift in Sources */,
 				65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
