@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		186D91A4C3A69EC7F46E303F /* Pods_LokTarHackingRioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320057B2DAD823AC413C978 /* Pods_LokTarHackingRioTests.framework */; };
+		3B71E364210CC08D00AD30AC /* Medico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71E363210CC08D00AD30AC /* Medico.swift */; };
+		3B71E366210CC5D100AD30AC /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71E365210CC5D100AD30AC /* Pessoa.swift */; };
 		65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */; };
 		65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */; };
 		65B24FF8210C7DE000EC1568 /* PatientView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B24FF7210C7DE000EC1568 /* PatientView.storyboard */; };
@@ -47,6 +49,8 @@
 		11FA4DFFDCB6183032F05A6D /* Pods-LokTarHackingRio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRio/Pods-LokTarHackingRio.debug.xcconfig"; sourceTree = "<group>"; };
 		17C09CAE1A87F2885A955B76 /* Pods-LokTarHackingRioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioTests/Pods-LokTarHackingRioTests.release.xcconfig"; sourceTree = "<group>"; };
 		37D2AB8B5D53C423FFAF7599 /* Pods_LokTarHackingRioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokTarHackingRioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B71E363210CC08D00AD30AC /* Medico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medico.swift; sourceTree = "<group>"; };
+		3B71E365210CC5D100AD30AC /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 		65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewController.swift; sourceTree = "<group>"; };
 		65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewCell.swift; sourceTree = "<group>"; };
 		65B24FF7210C7DE000EC1568 /* PatientView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatientView.storyboard; sourceTree = "<group>"; };
@@ -120,6 +124,9 @@
 				65B24FF9210CBFA100EC1568 /* Patient.swift */,
 				967EF1EB210CC16D00C0AC02 /* Consult.swift */,
 				967EF1EE210CC6D700C0AC02 /* Slot.swift */,
+				65B24FF9210CBFA100EC1568 /* test.swift */,
+				3B71E363210CC08D00AD30AC /* Medico.swift */,
+				3B71E365210CC5D100AD30AC /* Pessoa.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -409,10 +416,13 @@
 			files = (
 				65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */,
 				65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */,
+				3B71E364210CC08D00AD30AC /* Medico.swift in Sources */,
 				65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */,
 				967EF1EF210CC6D700C0AC02 /* Slot.swift in Sources */,
 				65B24FFA210CBFA100EC1568 /* Patient.swift in Sources */,
 				967EF1EC210CC16D00C0AC02 /* Consult.swift in Sources */,
+				65B24FFA210CBFA100EC1568 /* test.swift in Sources */,
+				3B71E366210CC5D100AD30AC /* Pessoa.swift in Sources */,
 				65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
