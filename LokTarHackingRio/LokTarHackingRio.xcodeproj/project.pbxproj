@@ -11,7 +11,7 @@
 		65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */; };
 		65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */; };
 		65B24FF8210C7DE000EC1568 /* PatientView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B24FF7210C7DE000EC1568 /* PatientView.storyboard */; };
-		65B24FFA210CBFA100EC1568 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF9210CBFA100EC1568 /* test.swift */; };
+		65B24FFA210CBFA100EC1568 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF9210CBFA100EC1568 /* Patient.swift */; };
 		65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE3210BE52300B32E89 /* AppDelegate.swift */; };
 		65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE5210BE52300B32E89 /* ViewController.swift */; };
 		65FABAE9210BE52300B32E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FABAE7210BE52300B32E89 /* Main.storyboard */; };
@@ -20,6 +20,8 @@
 		65FABAF9210BE52400B32E89 /* LokTarHackingRioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAF8210BE52400B32E89 /* LokTarHackingRioTests.swift */; };
 		65FABB04210BE52400B32E89 /* LokTarHackingRioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABB03210BE52400B32E89 /* LokTarHackingRioUITests.swift */; };
 		8EABEA67A67785290734B58C /* Pods_LokTarHackingRioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D2AB8B5D53C423FFAF7599 /* Pods_LokTarHackingRioUITests.framework */; };
+		967EF1EC210CC16D00C0AC02 /* Consult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EF1EB210CC16D00C0AC02 /* Consult.swift */; };
+		967EF1EF210CC6D700C0AC02 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967EF1EE210CC6D700C0AC02 /* Slot.swift */; };
 		BC74B3B46A612866D9B881C7 /* Pods_LokTarHackingRio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB30E7FF930752EBB85E75A2 /* Pods_LokTarHackingRio.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +50,7 @@
 		65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewController.swift; sourceTree = "<group>"; };
 		65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewCell.swift; sourceTree = "<group>"; };
 		65B24FF7210C7DE000EC1568 /* PatientView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatientView.storyboard; sourceTree = "<group>"; };
-		65B24FF9210CBFA100EC1568 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		65B24FF9210CBFA100EC1568 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		65FABAE0210BE52300B32E89 /* LokTarHackingRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokTarHackingRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FABAE3210BE52300B32E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FABAE5210BE52300B32E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		65FABAFF210BE52400B32E89 /* LokTarHackingRioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LokTarHackingRioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FABB03210BE52400B32E89 /* LokTarHackingRioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LokTarHackingRioUITests.swift; sourceTree = "<group>"; };
 		65FABB05210BE52400B32E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		967EF1EB210CC16D00C0AC02 /* Consult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Consult.swift; path = "../../../../Challenge3/Challenge3Grupo3/Picky Eaters Farm/Picky Eaters Farm/Controller/Consult.swift"; sourceTree = "<group>"; };
+		967EF1EE210CC6D700C0AC02 /* Slot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Slot.swift; path = "../../../../Challenge3/Challenge3Grupo3/Picky Eaters Farm/Picky Eaters Farm/Controller/Slot.swift"; sourceTree = "<group>"; };
 		9B71791C98BCAB684DDAAFBF /* Pods-LokTarHackingRioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioUITests/Pods-LokTarHackingRioUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE9277F55A2028CC3F296DAF /* Pods-LokTarHackingRio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRio.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRio/Pods-LokTarHackingRio.release.xcconfig"; sourceTree = "<group>"; };
 		DB30E7FF930752EBB85E75A2 /* Pods_LokTarHackingRio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokTarHackingRio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +117,9 @@
 		65B24FEF210C6E6400EC1568 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				65B24FF9210CBFA100EC1568 /* test.swift */,
+				65B24FF9210CBFA100EC1568 /* Patient.swift */,
+				967EF1EB210CC16D00C0AC02 /* Consult.swift */,
+				967EF1EE210CC6D700C0AC02 /* Slot.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -404,7 +410,9 @@
 				65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */,
 				65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */,
 				65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */,
-				65B24FFA210CBFA100EC1568 /* test.swift in Sources */,
+				967EF1EF210CC6D700C0AC02 /* Slot.swift in Sources */,
+				65B24FFA210CBFA100EC1568 /* Patient.swift in Sources */,
+				967EF1EC210CC16D00C0AC02 /* Consult.swift in Sources */,
 				65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
