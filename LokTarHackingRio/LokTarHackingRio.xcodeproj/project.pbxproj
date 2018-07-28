@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		186D91A4C3A69EC7F46E303F /* Pods_LokTarHackingRioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320057B2DAD823AC413C978 /* Pods_LokTarHackingRioTests.framework */; };
+		65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */; };
+		65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */; };
+		65B24FF8210C7DE000EC1568 /* PatientView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B24FF7210C7DE000EC1568 /* PatientView.storyboard */; };
 		65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE3210BE52300B32E89 /* AppDelegate.swift */; };
 		65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FABAE5210BE52300B32E89 /* ViewController.swift */; };
 		65FABAE9210BE52300B32E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FABAE7210BE52300B32E89 /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 		11FA4DFFDCB6183032F05A6D /* Pods-LokTarHackingRio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRio/Pods-LokTarHackingRio.debug.xcconfig"; sourceTree = "<group>"; };
 		17C09CAE1A87F2885A955B76 /* Pods-LokTarHackingRioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LokTarHackingRioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LokTarHackingRioTests/Pods-LokTarHackingRioTests.release.xcconfig"; sourceTree = "<group>"; };
 		37D2AB8B5D53C423FFAF7599 /* Pods_LokTarHackingRioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LokTarHackingRioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewController.swift; sourceTree = "<group>"; };
+		65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCollectionViewCell.swift; sourceTree = "<group>"; };
+		65B24FF7210C7DE000EC1568 /* PatientView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatientView.storyboard; sourceTree = "<group>"; };
 		65FABAE0210BE52300B32E89 /* LokTarHackingRio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LokTarHackingRio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FABAE3210BE52300B32E89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65FABAE5210BE52300B32E89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +108,41 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		65B24FEF210C6E6400EC1568 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65B24FF0210C6E6900EC1568 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				65FABAE7210BE52300B32E89 /* Main.storyboard */,
+				65FABAEC210BE52300B32E89 /* LaunchScreen.storyboard */,
+				65B24FF7210C7DE000EC1568 /* PatientView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		65B24FF1210C6E7200EC1568 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65B24FF2210C6F3600EC1568 /* Patient */,
+				65FABAE5210BE52300B32E89 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65B24FF2210C6F3600EC1568 /* Patient */ = {
+			isa = PBXGroup;
+			children = (
+				65B24FED210C6E5F00EC1568 /* PatientCollectionViewController.swift */,
+				65B24FF5210C7D9800EC1568 /* PatientCollectionViewCell.swift */,
+			);
+			path = Patient;
+			sourceTree = "<group>";
+		};
 		65FABAD7210BE52300B32E89 = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +168,11 @@
 		65FABAE2210BE52300B32E89 /* LokTarHackingRio */ = {
 			isa = PBXGroup;
 			children = (
+				65B24FEF210C6E6400EC1568 /* Model */,
+				65B24FF0210C6E6900EC1568 /* View */,
+				65B24FF1210C6E7200EC1568 /* Controller */,
 				65FABAE3210BE52300B32E89 /* AppDelegate.swift */,
-				65FABAE5210BE52300B32E89 /* ViewController.swift */,
-				65FABAE7210BE52300B32E89 /* Main.storyboard */,
 				65FABAEA210BE52300B32E89 /* Assets.xcassets */,
-				65FABAEC210BE52300B32E89 /* LaunchScreen.storyboard */,
 				65FABAEF210BE52400B32E89 /* Info.plist */,
 			);
 			path = LokTarHackingRio;
@@ -273,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FABAEE210BE52300B32E89 /* LaunchScreen.storyboard in Resources */,
+				65B24FF8210C7DE000EC1568 /* PatientView.storyboard in Resources */,
 				65FABAEB210BE52300B32E89 /* Assets.xcassets in Resources */,
 				65FABAE9210BE52300B32E89 /* Main.storyboard in Resources */,
 			);
@@ -358,6 +400,8 @@
 			files = (
 				65FABAE6210BE52300B32E89 /* ViewController.swift in Sources */,
 				65FABAE4210BE52300B32E89 /* AppDelegate.swift in Sources */,
+				65B24FF6210C7D9800EC1568 /* PatientCollectionViewCell.swift in Sources */,
+				65B24FEE210C6E5F00EC1568 /* PatientCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +578,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95YRNG7UFK;
 				INFOPLIST_FILE = LokTarHackingRio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -550,7 +597,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95YRNG7UFK;
 				INFOPLIST_FILE = LokTarHackingRio/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -567,7 +617,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95YRNG7UFK;
 				INFOPLIST_FILE = LokTarHackingRioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -585,7 +639,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95YRNG7UFK;
 				INFOPLIST_FILE = LokTarHackingRioTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -602,7 +660,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95YRNG7UFK;
 				INFOPLIST_FILE = LokTarHackingRioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -619,7 +681,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95YRNG7UFK;
 				INFOPLIST_FILE = LokTarHackingRioUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = LokTar.LokTarHackingRioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
