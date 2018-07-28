@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Pessoa{
+class Pessoa {
     var nome : String
     var cpf : String
     var nascimento : Date

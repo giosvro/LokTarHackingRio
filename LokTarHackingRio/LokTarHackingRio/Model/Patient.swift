@@ -8,12 +8,7 @@
 
 import Foundation
 
-class Patient {
-    var name: String
-    var birth: Date
-    var telephone: Int
-    var email: String
-    var cpf: Int
+class Patients: Pessoa {
     var healthInsurance: String
     var region: String
     var consult: [Consult]
@@ -21,22 +16,23 @@ class Patient {
     
     init(name: String,
          birth: Date,
-         telephone: Int,
+         telephone: String,
          email: String,
-         cpf: Int,
+         cpf: String,
          healthInsurance: String,
          region: String,
          consult: [Consult],
          order: Int) {
-        self.name = name
-        self.birth = birth
-        self.telephone = telephone
+        self.nome = name
+        self.nascimento = birth
+        self.telefone = telephone
         self.email = email
         self.cpf = cpf
         self.healthInsurance = healthInsurance
         self.region = region
         self.consult = consult
         self.order = order
+        super.init(nome: nome, cpf: cpf, nascimento: nascimento, email: email, telefone: telefone)
     }
     
 }
